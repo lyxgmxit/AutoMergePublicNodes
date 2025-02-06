@@ -23,7 +23,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '1,3,6,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #10'
+  name: '1,3,6|🇺🇸_US_美国 #9'
   network: ws
   port: 2086
   server: 104.19.57.4
@@ -167,7 +167,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '1,3,6,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #9'
+  name: '1,3,6|🇺🇸_US_美国 #13'
   network: ws
   port: 2086
   server: 104.18.57.111
@@ -410,7 +410,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,17|🇺🇸_US_美国 #20'
+  name: '3|🇺🇸_US_美国 #4'
   network: ws
   port: 2082
   server: cfcdn1.sanfencdn9.com
@@ -420,7 +420,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,17|🇺🇸_US_美国->🇧🇷_BR_巴西 #2'
+  name: 3|🇺🇸_US_美国->🇧🇷_BR_巴西
   network: ws
   port: 2052
   server: 104.18.37.248
@@ -430,7 +430,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,17|🇺🇸_US_美国->🇨🇳_CN_中国 #3'
+  name: 3|🇺🇸_US_美国->🇨🇳_CN_中国
   network: ws
   port: 8080
   server: 104.19.47.16
@@ -440,7 +440,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #8'
+  name: 3|🇺🇸_US_美国->🇨🇦_CA_加拿大
   network: ws
   port: 2086
   server: 104.19.47.65
@@ -450,7 +450,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,17|🇨🇳_CN_中国->🇺🇸_US_美国 #3'
+  name: '3|🇨🇳_CN_中国->🇺🇸_US_美国 #1'
   network: ws
   port: 16928
   server: 120.232.240.56
@@ -460,7 +460,7 @@ proxies:
   ws-opts: {}
 - alterId: 64
   cipher: auto
-  name: '3,17|🇨🇳_CN_中国->🇺🇸_US_美国 #4'
+  name: '3|🇨🇳_CN_中国->🇺🇸_US_美国 #2'
   network: tcp
   port: 54002
   server: 183.240.235.162
@@ -469,7 +469,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '3,17|🇺🇸_US_美国->🇧🇷_BR_巴西 #3'
+  name: '3|🇺🇸_US_美国->🇧🇷_BR_巴西 #1'
   network: ws
   port: 2052
   server: p3.v2raybrasil.cloud
@@ -479,7 +479,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,17|🇺🇸_US_美国 #21'
+  name: '3|🇺🇸_US_美国 #5'
   network: ws
   port: 2086
   server: 104.19.32.46
@@ -489,7 +489,7 @@ proxies:
   ws-opts: {}
 - alterId: 64
   cipher: auto
-  name: '3,17|🇨🇳_CN_中国 #1'
+  name: 3|🇨🇳_CN_中国
   network: tcp
   port: 54882
   server: 183.240.235.162
@@ -498,7 +498,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '3,17|🇺🇸_US_美国 #22'
+  name: '3|🇺🇸_US_美国 #6'
   network: ws
   port: 8080
   server: russia.com
@@ -508,7 +508,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,17|🇺🇸_US_美国->🇫🇷_FR_法国 #2'
+  name: '3|🇺🇸_US_美国->🇫🇷_FR_法国 #1'
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -518,7 +518,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #11'
+  name: '3|🇺🇸_US_美国->🇨🇦_CA_加拿大 #3'
   network: ws
   port: 2086
   server: 172.64.175.213
@@ -528,43 +528,16 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|0|🇩🇪1 |  1.4MB/s
-  network: tcp
-  port: 45074
-  server: haa.dashuai.cyou
+  name: 11|0|🇺🇸3 |  19.6MB/s
+  network: http
+  port: 8881
+  server: 66.42.86.202
   tls: false
   type: vmess
-  uuid: 7e1e1ad8-ad38-4ce5-97e0-a33f99500acd
-- alterId: 0
-  cipher: auto
-  name: 11|0|🇮🇷1 |  4.6MB/s
-  network: tcp
-  port: 52103
-  server: i.needss.top
-  tls: false
-  type: vmess
-  uuid: 1054cf03-81f8-4938-baac-e05794e9b910
-- alterId: 0
-  cipher: auto
-  name: 11|0|🇸🇬3 |  5.4MB/s
-  network: tcp
-  port: 50011
-  server: 50011.baidu-cdn.top
-  tls: false
-  type: vmess
-  uuid: 722ee660-ca57-467f-9eda-5739859212f9
-- alterId: 64
-  cipher: auto
-  name: 11|0|🇺🇸2 |  3.1MB/s
-  network: tcp
-  port: 45402
-  server: 120.232.153.123
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
 - alterId: 2
   cipher: auto
-  name: 11|0|🇺🇸3 |  6.1MB/s
+  name: 11|0|🇺🇸6 |  6.1MB/s
   network: ws
   port: 23617
   server: 17.mamamajd.site
@@ -575,33 +548,19 @@ proxies:
     headers:
       Host: 17.mamamajd.site
     path: /
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 11|0|🇯🇵2 |  5.7MB/s
-  network: tcp
-  port: 45056
-  server: haa.dashuai.cyou
+  name: 11|0|🇺🇸7 |  5.0MB/s
+  network: ws
+  port: 23615
+  server: 15.mamamajd.site
   tls: false
   type: vmess
-  uuid: 7e1e1ad8-ad38-4ce5-97e0-a33f99500acd
-- alterId: 0
-  cipher: auto
-  name: 11|0|🇺🇸4 |  1.1MB/s
-  network: tcp
-  port: 45072
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 7e1e1ad8-ad38-4ce5-97e0-a33f99500acd
-- alterId: 0
-  cipher: auto
-  name: 11|0|🇺🇸5 |  7.2MB/s
-  network: tcp
-  port: 50008
-  server: 50008.baidu-cdn.top
-  tls: false
-  type: vmess
-  uuid: 722ee660-ca57-467f-9eda-5739859212f9
+  uuid: efcadb62-c7bb-38f0-8eb9-47340ad9d0a7
+  ws-opts:
+    headers:
+      Host: 15.mamamajd.site
+    path: /
 - alterId: 0
   cipher: auto
   name: 11,16|香港2|@ripaojiedian
