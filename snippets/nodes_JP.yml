@@ -69,9 +69,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,15|🇯🇵 日本3|@ripaojiedian
+  name: 11,15,16|日本3|@ripaojiedian
   network: ws
-  port: 8004
+  port: '8004'
   server: 59.42.247.189
   servername: ''
   skip-cert-verify: false
@@ -85,7 +85,7 @@ proxies:
     path: /nmkj
 - alterId: 0
   cipher: auto
-  name: 11|12|日本5|@ripaojiedian
+  name: 11,16|日本5|@ripaojiedian
   network: kcp
   port: '53893'
   server: 47.74.41.147
