@@ -331,7 +331,7 @@ proxies:
   uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 11,16|美国|@ripaojiedian
+  name: 11|12|美国|@ripaojiedian
   network: tcp
   port: '44015'
   server: 120.198.71.219
@@ -342,9 +342,9 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,15,16|美国3|@ripaojiedian
+  name: 11,15|🇺🇸 美国3|@ripaojiedian
   network: ws
-  port: '30807'
+  port: 30807
   server: v7.heduian.link
   servername: ''
   skip-cert-verify: false

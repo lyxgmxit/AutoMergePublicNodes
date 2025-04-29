@@ -707,7 +707,7 @@ proxies:
   uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 11,16|香港5|@ripaojiedian
+  name: 11|12|香港5|@ripaojiedian
   network: tcp
   port: '41291'
   server: 183.236.51.38
@@ -717,7 +717,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11,16|香港6|@ripaojiedian
+  name: 11|12|香港6|@ripaojiedian
   network: tcp
   port: '42375'
   server: 120.198.71.214
@@ -728,9 +728,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,15,16|日本3|@ripaojiedian
+  name: 11,15|🇯🇵 日本3|@ripaojiedian
   network: ws
-  port: '8004'
+  port: 8004
   server: 59.42.247.189
   servername: ''
   skip-cert-verify: false
@@ -745,9 +745,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,15,16|韩国|@ripaojiedian
+  name: 11,15|🇰🇷 韩国|@ripaojiedian
   network: ws
-  port: '443'
+  port: 443
   server: cg1c16.waimaoglobaldirect.cc
   servername: cg1c16.waimaoglobaldirect.cc
   skip-cert-verify: false
@@ -762,9 +762,9 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,15,16|新加坡|@ripaojiedian
+  name: 11,15|🇸🇬 新加坡|@ripaojiedian
   network: ws
-  port: '30812'
+  port: 30812
   server: v12.heduian.link
   servername: ''
   skip-cert-verify: false
@@ -778,7 +778,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 11,16|美国|@ripaojiedian
+  name: 11|12|美国|@ripaojiedian
   network: tcp
   port: '44015'
   server: 120.198.71.219
@@ -789,9 +789,9 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,15,16|美国3|@ripaojiedian
+  name: 11,15|🇺🇸 美国3|@ripaojiedian
   network: ws
-  port: '30807'
+  port: 30807
   server: v7.heduian.link
   servername: ''
   skip-cert-verify: false
@@ -805,7 +805,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 11,16|日本5|@ripaojiedian
+  name: 11|12|日本5|@ripaojiedian
   network: kcp
   port: '53893'
   server: 47.74.41.147
